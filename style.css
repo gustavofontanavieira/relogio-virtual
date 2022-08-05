@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #0c3f4d, #0a95d5);
+}
+
+h5 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.container {
+  margin: 15% 0;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  color: white;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.square {
+  background-color: rgb(194, 192, 194);
+  font-size: 2.5rem;
+  color: rgb(12, 109, 144);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  padding-top: 72px;
+  border-radius: 25px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.338);
+}
